@@ -6,120 +6,194 @@
     <title>Document</title>
     <link rel="stylesheet" href="./assets/reset.css" />
     <link rel="stylesheet" href="./assets/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
+    <!-- header start -->
     <header>
-      <div class="main">
-        <h1>Stylish Portfolio</h1>
-        <p><i>A Free Bootstrap Theme by Start Bootstrap</i></p>
-        <a href="#more">Find Out More</a>
+      <nav>
+        <div class="nav">
+          <div class="navbar">
+            <p>Start Bootstrap</p>
+            <ul>
+              <li style="color: black">Home</li>
+              <li>About</li>
+              <li>
+                Shop
+                <i style="font-size: 12px" class="fa-solid fa-caret-down"></i>
+              </li>
+            </ul>
+          </div>
+          <div class="cart">
+            <i class="fa-solid fa-cart-shopping"></i> Cart <span>0</span>
+          </div>
+          <div class="menu">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+        </div>
+      </nav>
+      <div class="home">
+        <h1>Shop in style</h1>
+        <p>With this shop hompeage template</p>
       </div>
     </header>
+    <!-- header end -->
+    <!-- main start  -->
     <main>
-      <section id="more">
-        <h3>Stylish Portfolio is the perfect theme for your next project!</h3>
-        <p>
-          This theme features a flexible, UX friendly sidebar menu and stock
-          photos from our friends at <a href="#">Unsplash</a> !
-        </p>
-        <a href="#offer">What We Offer</a>
-      </section>
-      <section id="offer">
-        <h4>SERVICES</h4>
-        <h1>What We Offer</h1>
-        <div class="icons">
-          <div class="content">
-            <div class="icon"></div>
-            <h3>Responsive</h3>
-            <p>Looks great on any screen size!</p>
-          </div>
-          <div class="content">
-            <div class="icon"></div>
-            <h3>Redesigned</h3>
-            <p>Freshly redesigned for Bootstrap 5.</p>
-          </div>
-          <div class="content">
-            <div class="icon"></div>
-            <h3>Favorited</h3>
-            <p>Millions of users Start Bootstrap!</p>
-          </div>
-          <div class="content">
-            <div class="icon"></div>
-            <h3>Question</h3>
-            <p>I mustache you a question...</p>
-          </div>
-        </div>
-      </section>
       <section>
-        <div class="welcome">
-          <h1>Welcome to <i>your</i> next website!</h1>
-          <a href="https://startbootstrap.com/previews/stylish-portfolio"
-            >Donwload Now!</a
-          >
-        </div>
-      </section>
-      <section>
-        <div class="portfolio">
-          <div class="stationary">
-            <h5>Stationary</h5>
-            <p>A yellow pencil with envelopes on a clean, blue backdrop!</p>
+        <div class="cards">
+          <div class="card">
+            <div class="image">
+              <img
+                src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+                alt=""
+              />
+            </div>
+            <div class="card-info">
+              <p>Fancy Product</p>
+              <span>$40.00 - $80.00</span>
+              <button>View options</button>
+            </div>
           </div>
-          <div class="caption">
-            <h5>Ice Cream</h5>
-            <p>
-              A dark blue background with a colored pencil, a clip, and a tiny
-              ice cream cone!
-            </p>
+          <div class="card">
+            <div class="image">
+              <span class="sale">Sale</span>
+              <img
+                src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+                alt=""
+              />
+            </div>
+            <div class="card-info">
+              <p>Special Item</p>
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <span> <span class="lined"> $20.00 </span> $18.00</span>
+              <button>Add to cart</button>
+            </div>
           </div>
-          <div class="strawberry">
-            <h5>Strawberries</h5>
-            <p>
-              Strawberries are such a tasty snack, especially with a little
-              sugar on top!
-            </p>
+          <div class="card">
+            <div class="image">
+              <span class="sale">Sale</span>
+              <img
+                src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+                alt=""
+              />
+            </div>
+            <div class="card-info">
+              <p>Sale Item</p>
+              <span><span class="lined"> $50.00 </span> $25.00</span>
+              <button>Add to cart</button>
+            </div>
           </div>
-          <div class="workspace">
-            <h5>Workspace</h5>
-            <p>
-              A yellow workspace with some scissors, pencils, and other objects.
-            </p>
+          <div class="card">
+            <div class="image">
+              <img
+                src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+                alt=""
+              />
+            </div>
+            <div class="card-info">
+              <p>Popular Item</p>
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <span>$40.00</span>
+              <button>Add to cart</button>
+            </div>
           </div>
-        </div>
-      </section>
-      <section>
-        <h2>The buttons below are impossible to resist...</h2>
-        <div class="buttons">
-          <button class="button1">Click Me!</button>
-          <button class="button2">Look at Me!</button>
-        </div>
-      </section>
-      <section>
-        <div class="map">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.5757337721725!2d-122.41954182411631!3d37.776545171984864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085809c6c8f4459%3A0xb10ed6d9b5050fa5!2sX%20Corp.%20HQ!5e0!3m2!1sen!2saz!4v1697418952227!5m2!1sen!2saz"
-            width="1518"
-            height="450"
-            style="border: 0"
-            allowfullscreen=""
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-          ></iframe>
+          <div class="card">
+            <div class="image">
+              <span class="sale">Sale</span>
+              <img
+                src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+                alt=""
+              />
+            </div>
+            <div class="card-info">
+              <p>Sale Item</p>
+              <span><span class="lined"> $50.00 </span> $25.00</span>
+              <button>Add to cart</button>
+            </div>
+          </div>
+          <div class="card">
+            <div class="image">
+              <img
+                src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+                alt=""
+              />
+            </div>
+            <div class="card-info">
+              <p>Fancy Product</p>
+              <span>$120.00 - $280.00</span>
+              <button>View options</button>
+            </div>
+          </div>
+          <div class="card">
+            <div class="image">
+              <span class="sale">Sale</span>
+              <img
+                src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+                alt=""
+              />
+            </div>
+            <div class="card-info">
+              <p>Special Item</p>
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <span> <span class="lined"> $20.00 </span> $18.00</span>
+              <button>Add to cart</button>
+            </div>
+          </div>
+          <div class="card">
+            <div class="image">
+              <img
+                src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+                alt=""
+              />
+            </div>
+            <div class="card-info">
+              <p>Popular Item</p>
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <span>$40.00</span>
+              <button>Add to cart</button>
+            </div>
+          </div>
         </div>
       </section>
     </main>
+    <!-- main end -->
+    <!-- footer start  -->
     <footer>
-        <div class="icons-footer">
-            <div>                
-
-            </div>
-            <div>                
-
-            </div>
-            <div>                
-
-            </div>
-        </div>
+      <div class="footer">
         <p>Copyright © Your Website 2023</p>
+      </div>
     </footer>
+    <!-- footer end  -->
   </body>
 </html>
